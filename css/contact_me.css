@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/img/back.jpg");
+}
+header {
+  background-color: #03051a;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 100;
+}
+nav a {
+  padding: 0 100px;
+  text-decoration: none;
+  color: white;
+}
+main {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fillup {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.fillup input {
+  width: 50%;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.fillup h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 30px;
+  font-weight: 700;
+}
+.fillup label {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em;
+  -webkit-text-stroke: 1px black;
+}
+.fillup input[type="submit"] {
+  width: 15%;
+  height: 50px;
+}
